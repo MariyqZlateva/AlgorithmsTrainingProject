@@ -22,5 +22,6 @@ public class SelectionSort implements Sorter {
         int temp = array[elementOne];
         array[elementOne] = array[elementTwo];
         array[elementTwo] = temp;
-    }
+    }//end of method swap
+
 }//end of class SelectionSort
