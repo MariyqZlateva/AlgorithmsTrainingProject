@@ -13,15 +13,8 @@ public class SelectionSort implements Sorter {
                     indexHoldingMaxValue = i;
                 }
             }
-            this.swap(array, last, indexHoldingMaxValue);
+           Sorter.swap(array, last, indexHoldingMaxValue);
         }
     }//end of method sort
-
-    // == private methods ==
-    private void swap(int[] array, int elementOne, int elementTwo) {
-        int temp = array[elementOne];
-        array[elementOne] = array[elementTwo];
-        array[elementTwo] = temp;
-    }//end of method swap
 
 }//end of class SelectionSort

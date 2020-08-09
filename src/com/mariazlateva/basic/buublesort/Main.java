@@ -8,7 +8,7 @@ class Main {
     public static void main(String[] args) {
 
         int[] array = new int[]{7, 1, -15, 35, 55, -22};
-        Sorter bubbleSort = new BubbleSort();
+        Sorter bubbleSort = new BubbleSortTrainingClass();
         sortAndPrint(array, bubbleSort);
     }//end of main method
 
